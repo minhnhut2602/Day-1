@@ -1,0 +1,25 @@
+Setup RVM:
+  Step 1: sudo apt-get update
+  Step 2: sudo apt-get install git-core curl
+  Step 3: curl -L https://get.rvm.io | bash -s stable
+  Step 4: source ~/.rvm/scripts/rvm
+  
+Ruby:
+  Step 1: sudo apt-get update
+  
+MySQL:
+  Step 1: sudo apt-get install mysql-server mysql-client libmysqlclient-dev
+  Step 2: mysql -u root -p
+  Step 3: enter password
+  
+rails:
+  Step 1: sudo add-apt-repository ppa:chris-lea/node.js
+  Step 2: sudo apt-get update
+  Step 3: sudo apt-get install nodejs
+  Step 4: gem install rails
+  Step 5: which rails
+  
+git:
+  Step 1: sudo apt-get install git git-gui gitk
+  Step 2: git config --global user.name "Name"
+  Step 3: git config --global user.email "email"
